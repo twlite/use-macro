@@ -1,0 +1,44 @@
+{
+  "name": "use-macro",
+  "version": "1.0.0",
+  "description": "ESBuild plugin that allows you to execute functions at compile time and inline the output",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "cd ./examples/version && bun run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twlite/use-macro.git"
+  },
+  "keywords": [
+    "macro",
+    "esbuild",
+    "compile-time",
+    "plugin"
+  ],
+  "author": "Twilight <hello@twlite.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twlite/use-macro/issues"
+  },
+  "homepage": "https://github.com/twlite/use-macro#readme",
+  "devDependencies": {
+    "@types/babel__generator": "^7.6.8",
+    "@types/babel__traverse": "^7.20.6",
+    "@types/node": "^22.10.2",
+    "esbuild": "^0.24.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.26.3",
+    "@babel/parser": "^7.26.3",
+    "@babel/traverse": "^7.26.4",
+    "@babel/types": "^7.26.3",
+    "devalue": "^5.1.1"
+  }
+}
