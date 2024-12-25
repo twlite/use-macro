@@ -1,5 +1,5 @@
 import { defineConfig } from 'tsup';
-import { esbuildPluginUseMacro } from '../../src';
+import { esbuildPluginUseMacro } from '../../dist/index.js';
 
 export default defineConfig({
   entry: ['./src/index.ts'],

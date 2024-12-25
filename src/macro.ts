@@ -18,10 +18,8 @@ interface MacroFunction {
 
 const macroCache = new Map<string, string>();
 
-// @ts-ignore
-const traverse = (_traverse.default || _traverse) as typeof _traverse;
-// @ts-ignore
-const generate = (_generate.default || _generate) as typeof _generate;
+const traverse = _traverse.default;
+const generate = _generate.default;
 
 export const esbuildPluginUseMacro = () => {
   return {

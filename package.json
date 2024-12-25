@@ -1,9 +1,10 @@
 {
   "name": "use-macro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESBuild plugin that allows you to execute functions at compile time and inline the output",
   "main": "dist/index.js",
-  "type": "commonjs",
+  "types": "dist/index.d.ts",
+  "type": "module",
   "files": [
     "dist"
   ],

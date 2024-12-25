@@ -2,6 +2,8 @@
 
 This is a plugin for [esbuild](https://esbuild.github.io/) that allows you to use macros in your code. Macros are a way to define a function that will be executed at compile time, and will replace the macro call with the result of the function.
 
+> Note: This package is esm only.
+
 ## Installation
 
 ```bash
